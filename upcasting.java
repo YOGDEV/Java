@@ -1,3 +1,5 @@
+//runtime polymorphism...
+//jvm...
 class Bank
 {
   float getROI()
@@ -18,7 +20,11 @@ class Bank
 }
 
 class HDFC extends Bank
-{
+{ /*void show() //calling this metnod by refrence of parent class Bank will generate error...only same name method are alllowed...
+   {
+   System.out.println("hii...");
+   }*/
+   
   float getROI()
   {
   return 4.0f;
@@ -41,7 +47,7 @@ class PNB extends Bank
   }
 }
 
-/*class Xyz
+/*class Xyz // this also runs...
 {
  public static void main(String[] args)
  {
