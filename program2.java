@@ -26,7 +26,7 @@ else
  System.out.println("transation failed due to insufficient balance \n");
 }
 
-void checkBal()
+void checkBalance()
 {
 System.out.println("Amount Balanced is = "+Amount+"\n");
 }
