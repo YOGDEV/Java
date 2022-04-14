@@ -20,7 +20,7 @@ void deposit(float am)
 
 void withdraw(float am)
 {
- if(am<Amount)
+ if(am<=Amount)
   Amount -=am;
 else
  System.out.println("transation failed due to insufficient balance \n");
